@@ -3,7 +3,7 @@
 ## Reference
 - Zhao Y, et al. Robust EMI elimination for RF shielding-free MRI through deep learning direct MR signal prediction. Magn Reson Med. 2024. doi: 10.1002/mrm.30046.
 
-## Demo and sample data (will be released before April 2024)
+## Demo and sample data (will be released before April 15 2024)
 - DeepDSP codes are provided.
   + DeepDSP.py: A residual UNet model is first trained using synthetic MRI receive coil data and EMI sensing coil data acquired during EMI signal characterization window, to predict EMI-free MR signals from signals acquired by MRI receive and EMI sensing coils. The trained model is then used to directly predict EMI-free MR signals from data acquired by MRI receive and sensing coils during the MR signal-acquisition window.
   
