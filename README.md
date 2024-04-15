@@ -3,12 +3,11 @@
 ## Reference
 - Zhao Y, et al. Robust EMI elimination for RF shielding-free MRI through deep learning direct MR signal prediction. Magn Reson Med. 2024. doi: 10.1002/mrm.30046.
 
-## Demo and sample data (will be released before April 15 2024)
-- DeepDSP codes are provided.
-  + DeepDSP.py: A residual UNet model is first trained using synthetic MRI receive coil data and EMI sensing coil data acquired during EMI signal characterization window, to predict EMI-free MR signals from signals acquired by MRI receive and EMI sensing coils. The trained model is then used to directly predict EMI-free MR signals from data acquired by MRI receive and sensing coils during the MR signal-acquisition window.
-  
-- Sample data are available for replicating the results in Figure 2.
-  + A typical training time for provided dataset is around 6mins (the trained model is also provided).
+## Demo and sample data
+- Sample data are available for replicating the EMI elimination results of brain T1W data in Figure 2.
+  + Deep-DSP model training and test can be run via "python DeepDSP.pyo".
+  + A typical training time for provided dataset is around 5mins. 
+  + The trained model and results are also provided.
 
 ## Suggested setup
 - The demo codes were tested on Python 3.8.3 installed on Ubuntu 18.04.5 LTS (Linux 5.4.0-77-generic). More details can be found in Software dependencies section.
