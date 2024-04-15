@@ -4,7 +4,7 @@
 - Zhao Y, et al. Robust EMI elimination for RF shielding-free MRI through deep learning direct MR signal prediction. Magn Reson Med. 2024. doi: 10.1002/mrm.30046.
 
 ## Demo and sample data
-- Sample data are available for replicating the EMI elimination results of brain T1W data in Figure 2.
+- Sample data are available for replicating the EMI elimination results of simulated brain data in Figure 2.
   + Deep-DSP model training and test can be run via "python DeepDSP.pyo".
   + A typical training time for provided dataset is around 5mins. 
   + The trained model and results are also provided.
